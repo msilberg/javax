@@ -14,8 +14,8 @@ interface Bicycle {
 
 class SpeedBicycle implements Bicycle {
 
-    int speed;
-    int price;
+    private int speed;
+    private int price;
 
     @Override
     public void setSpeed(int newSpeed) {
