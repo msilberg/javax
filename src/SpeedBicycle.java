@@ -20,6 +20,7 @@ class SpeedBicycle implements Bicycle {
     private float pi = 3.14_15F;
     private float foo = 5.25456F;
     private int foo2 = 55;
+    private int foo3 = 0x9a; // hexadecimal
 
     @Override
     public void setSpeed(int newSpeed) {
@@ -38,5 +39,6 @@ class SpeedBicycle implements Bicycle {
         System.out.println(pi);
         System.out.println(foo);
         System.out.println(foo2);
+        System.out.println(foo3);
     }
 }
