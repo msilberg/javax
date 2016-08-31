@@ -16,11 +16,13 @@ class SpeedBicycle implements Bicycle {
 
     private int speed;
     private int price;
+    private String fooString = "Hello world";
     private long idNumber = 123_456_789_012L;
     private float pi = 3.14_15F;
     private float foo = 5.25456F;
     private int foo2 = 55;
     private int foo3 = 0x9a; // hexadecimal
+    private char foo4 = 'A';
 
     @Override
     public void setSpeed(int newSpeed) {
@@ -40,5 +42,7 @@ class SpeedBicycle implements Bicycle {
         System.out.println(foo);
         System.out.println(foo2);
         System.out.println(foo3);
+        System.out.println(fooString);
+        System.out.println(foo4);
     }
 }
